@@ -1,0 +1,7 @@
+@import'../utils/variables.scss';
+.encabezado{
+    &__titulotest{
+        font-family: font('raleway'), sans-serif;
+        color: color('texto');
+    }
+}

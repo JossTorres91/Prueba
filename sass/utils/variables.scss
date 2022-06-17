@@ -1,0 +1,13 @@
+$colores:(
+    'texto':#212121,
+);
+@function color($key){
+    @return map-get($colores,$key);
+}
+$fuentes:(
+    'raleway':Raleway,
+    'roboto':Roboto,
+);
+@function font($key){
+    @return map-get($fuentes,$key)
+}

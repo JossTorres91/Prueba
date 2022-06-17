@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,AAAA,CACG,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACb,AACD,AAAA,IAAI,AAAA,CACA,SAAS,CAAE,KAAK,CACnB,ACJI,AAAD,uBAAa,AAAA,CACT,WAAW,CCIL,OAAO,CDJiB,UAAU,CACxC,KAAK,CCHD,OAAO,CDId",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/components/_diseño.scss",
+        "../sass/components/_encabezado.scss",
+        "../sass/utils/variables.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
