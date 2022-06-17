@@ -2,9 +2,18 @@
 .encabezado{
     display: flex;
     align-items: center;
-    padding: 24px 219px 25px 215px;
+    padding: 0 13.5%;
+    border-bottom: 1px solid #ececec;
     &__menu{
         display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    &__navegacion{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
     }
     &__link{
         text-decoration: none;
@@ -16,8 +25,32 @@
         &:hover,&:focus{
             color: color('logo');
         }
+        &--activo{
+            text-decoration: none;
+            padding-top: 25px;
+            color: color('logo');
+            font-family: font('roboto'), sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.17;
+            &::after {
+                margin-top: 21px;
+                display: flex;
+                content: "";
+                border: 2px solid color('logo');
+                border-radius: 2px;
+                -webkit-border-radius: 2px;
+                -moz-border-radius: 2px;
+                -ms-border-radius: 2px;
+                -o-border-radius: 2px;
+            }
+        }
     }
     &__contacto{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
         &mail,&tel{
             color: color('textogris');
             font-family: font('roboto'),sans-serif;
