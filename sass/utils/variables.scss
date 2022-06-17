@@ -1,5 +1,8 @@
 $colores:(
+    'test':gold,
+    'logo':#2196f3,
     'texto':#212121,
+    'textogris':#757575,
 );
 @function color($key){
     @return map-get($colores,$key);

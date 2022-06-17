@@ -1,7 +1,34 @@
 @import'../utils/variables.scss';
 .encabezado{
-    &__titulotest{
-        font-family: font('raleway'), sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 24px 219px 25px 215px;
+    &__menu{
+        display: flex;
+    }
+    &__link{
+        text-decoration: none;
         color: color('texto');
+        font-family: font('roboto'),sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.17;
+        &:hover,&:focus{
+            color: color('logo');
+        }
+    }
+    &__contacto{
+        &mail,&tel{
+            color: color('textogris');
+            font-family: font('roboto'),sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.17;
+            text-decoration: none;
+            &:hover,&:focus{
+                color: color('logo');
+                fill: color('logo');
+            }
+        }
     }
 }

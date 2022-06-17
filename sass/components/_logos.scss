@@ -1,0 +1,12 @@
+@import'../utils/variables.scss';
+.logo-empresa{
+    color: color('logo');
+    font-family: font('raleway'),sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 2;
+    text-decoration: none;
+    &:hover,&:focus{
+        color: blueviolet;
+    }
+}
